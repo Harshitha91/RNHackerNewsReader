@@ -1,12 +1,15 @@
 # RNHackerNewsReader
 
-$ cd RNHackerNewsReader
+### install dependencies
 
-## install dependencies
+```
+cd RNHackerNewsReader
+yarn
+```
 
-$ yarn
+### Run on ios or android simulator
 
-# Run on ios or android simulator
-
-$ yarn ios
-$ yarn android
+```
+yarn ios
+yarn android
+```
