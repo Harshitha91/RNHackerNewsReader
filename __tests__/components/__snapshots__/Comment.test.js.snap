@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "backgroundColor": "#FFF",
+    }
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={70}
+    bbWidth="100%"
+    focusable={false}
+    height={70}
+    interval={0.25}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {},
+        Object {
+          "flex": 0,
+          "height": 70,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={70}
+    vbWidth={725}
+    width="100%"
+  >
+    <RNSVGGroup>
+      <RNSVGRect
+        clipPath="14bezy-animated-diff"
+        fill={
+          Array [
+            1,
+            "14bezy-diff",
+          ]
+        }
+        height="100%"
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          name="14bezy-animated-diff"
+        >
+          <RNSVGRect
+            height="6"
+            rx="3"
+            ry="3"
+            width={337.5}
+            x="10"
+            y="15"
+          />
+          <RNSVGRect
+            height="6"
+            rx="3"
+            ry="3"
+            width={187.5}
+            x="10"
+            y="30"
+          />
+          <RNSVGRect
+            height="6"
+            rx="3"
+            ry="3"
+            width={675}
+            x="10"
+            y="45"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            Array [
+              0,
+              -789517,
+              0.5,
+              -1250325,
+              1,
+              -789517,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="14bezy-diff"
+          x1="-100%"
+          x2="0%"
+          y1={0}
+          y2={0}
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
